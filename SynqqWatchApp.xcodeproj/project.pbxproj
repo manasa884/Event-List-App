@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19BCB8DD1B757FF40004969D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCB8DC1B757FF40004969D /* AppDelegate.swift */; };
+		19BCB8E01B757FF40004969D /* SynqqWatchApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19BCB8DE1B757FF40004969D /* SynqqWatchApp.xcdatamodeld */; };
+		19BCB8E21B757FF40004969D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCB8E11B757FF40004969D /* ViewController.swift */; };
+		19BCB8E51B757FF40004969D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BCB8E31B757FF40004969D /* Main.storyboard */; };
+		19BCB8E71B757FF40004969D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19BCB8E61B757FF40004969D /* Images.xcassets */; };
+		19BCB8EA1B757FF40004969D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19BCB8E81B757FF40004969D /* LaunchScreen.xib */; };
+		19BCB8F61B757FF40004969D /* SynqqWatchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCB8F51B757FF40004969D /* SynqqWatchAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19BCB8F01B757FF40004969D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19BCB8CF1B757FF40004969D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19BCB8D61B757FF40004969D;
+			remoteInfo = SynqqWatchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19BCB8D71B757FF40004969D /* SynqqWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SynqqWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BCB8DB1B757FF40004969D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BCB8DC1B757FF40004969D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19BCB8DF1B757FF40004969D /* SynqqWatchApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SynqqWatchApp.xcdatamodel; sourceTree = "<group>"; };
+		19BCB8E11B757FF40004969D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19BCB8E41B757FF40004969D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19BCB8E61B757FF40004969D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19BCB8E91B757FF40004969D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		19BCB8EF1B757FF40004969D /* SynqqWatchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynqqWatchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BCB8F41B757FF40004969D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BCB8F51B757FF40004969D /* SynqqWatchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynqqWatchAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19BCB8D41B757FF40004969D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BCB8EC1B757FF40004969D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19BCB8CE1B757FF40004969D = {
+			isa = PBXGroup;
+			children = (
+				19BCB8D91B757FF40004969D /* SynqqWatchApp */,
+				19BCB8F21B757FF40004969D /* SynqqWatchAppTests */,
+				19BCB8D81B757FF40004969D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19BCB8D81B757FF40004969D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19BCB8D71B757FF40004969D /* SynqqWatchApp.app */,
+				19BCB8EF1B757FF40004969D /* SynqqWatchAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19BCB8D91B757FF40004969D /* SynqqWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				19BCB8DC1B757FF40004969D /* AppDelegate.swift */,
+				19BCB8E11B757FF40004969D /* ViewController.swift */,
+				19BCB8E31B757FF40004969D /* Main.storyboard */,
+				19BCB8E61B757FF40004969D /* Images.xcassets */,
+				19BCB8E81B757FF40004969D /* LaunchScreen.xib */,
+				19BCB8DE1B757FF40004969D /* SynqqWatchApp.xcdatamodeld */,
+				19BCB8DA1B757FF40004969D /* Supporting Files */,
+			);
+			path = SynqqWatchApp;
+			sourceTree = "<group>";
+		};
+		19BCB8DA1B757FF40004969D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19BCB8DB1B757FF40004969D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19BCB8F21B757FF40004969D /* SynqqWatchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				19BCB8F51B757FF40004969D /* SynqqWatchAppTests.swift */,
+				19BCB8F31B757FF40004969D /* Supporting Files */,
+			);
+			path = SynqqWatchAppTests;
+			sourceTree = "<group>";
+		};
+		19BCB8F31B757FF40004969D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19BCB8F41B757FF40004969D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19BCB8D61B757FF40004969D /* SynqqWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BCB8F91B757FF40004969D /* Build configuration list for PBXNativeTarget "SynqqWatchApp" */;
+			buildPhases = (
+				19BCB8D31B757FF40004969D /* Sources */,
+				19BCB8D41B757FF40004969D /* Frameworks */,
+				19BCB8D51B757FF40004969D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SynqqWatchApp;
+			productName = SynqqWatchApp;
+			productReference = 19BCB8D71B757FF40004969D /* SynqqWatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19BCB8EE1B757FF40004969D /* SynqqWatchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BCB8FC1B757FF40004969D /* Build configuration list for PBXNativeTarget "SynqqWatchAppTests" */;
+			buildPhases = (
+				19BCB8EB1B757FF40004969D /* Sources */,
+				19BCB8EC1B757FF40004969D /* Frameworks */,
+				19BCB8ED1B757FF40004969D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19BCB8F11B757FF40004969D /* PBXTargetDependency */,
+			);
+			name = SynqqWatchAppTests;
+			productName = SynqqWatchAppTests;
+			productReference = 19BCB8EF1B757FF40004969D /* SynqqWatchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19BCB8CF1B757FF40004969D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Manasa Tipparam";
+				TargetAttributes = {
+					19BCB8D61B757FF40004969D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					19BCB8EE1B757FF40004969D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 19BCB8D61B757FF40004969D;
+					};
+				};
+			};
+			buildConfigurationList = 19BCB8D21B757FF40004969D /* Build configuration list for PBXProject "SynqqWatchApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19BCB8CE1B757FF40004969D;
+			productRefGroup = 19BCB8D81B757FF40004969D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19BCB8D61B757FF40004969D /* SynqqWatchApp */,
+				19BCB8EE1B757FF40004969D /* SynqqWatchAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19BCB8D51B757FF40004969D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BCB8E51B757FF40004969D /* Main.storyboard in Resources */,
+				19BCB8EA1B757FF40004969D /* LaunchScreen.xib in Resources */,
+				19BCB8E71B757FF40004969D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BCB8ED1B757FF40004969D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19BCB8D31B757FF40004969D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BCB8E21B757FF40004969D /* ViewController.swift in Sources */,
+				19BCB8E01B757FF40004969D /* SynqqWatchApp.xcdatamodeld in Sources */,
+				19BCB8DD1B757FF40004969D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BCB8EB1B757FF40004969D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BCB8F61B757FF40004969D /* SynqqWatchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19BCB8F11B757FF40004969D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19BCB8D61B757FF40004969D /* SynqqWatchApp */;
+			targetProxy = 19BCB8F01B757FF40004969D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19BCB8E31B757FF40004969D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19BCB8E41B757FF40004969D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19BCB8E81B757FF40004969D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19BCB8E91B757FF40004969D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19BCB8F71B757FF40004969D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19BCB8F81B757FF40004969D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19BCB8FA1B757FF40004969D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SynqqWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19BCB8FB1B757FF40004969D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SynqqWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19BCB8FD1B757FF40004969D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SynqqWatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynqqWatchApp.app/SynqqWatchApp";
+			};
+			name = Debug;
+		};
+		19BCB8FE1B757FF40004969D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SynqqWatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynqqWatchApp.app/SynqqWatchApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19BCB8D21B757FF40004969D /* Build configuration list for PBXProject "SynqqWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BCB8F71B757FF40004969D /* Debug */,
+				19BCB8F81B757FF40004969D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19BCB8F91B757FF40004969D /* Build configuration list for PBXNativeTarget "SynqqWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BCB8FA1B757FF40004969D /* Debug */,
+				19BCB8FB1B757FF40004969D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19BCB8FC1B757FF40004969D /* Build configuration list for PBXNativeTarget "SynqqWatchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BCB8FD1B757FF40004969D /* Debug */,
+				19BCB8FE1B757FF40004969D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		19BCB8DE1B757FF40004969D /* SynqqWatchApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19BCB8DF1B757FF40004969D /* SynqqWatchApp.xcdatamodel */,
+			);
+			currentVersion = 19BCB8DF1B757FF40004969D /* SynqqWatchApp.xcdatamodel */;
+			path = SynqqWatchApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 19BCB8CF1B757FF40004969D /* Project object */;
+}
